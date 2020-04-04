@@ -1,6 +1,6 @@
 # Implementation of "Folksonomication: Predicting Tags for Movies from Plot Synopses using Emotion Flow Encoded Neural Network"
 
-[Project Home and Live Demo](http://ritual.uh.edu/folksonomication-2018) 
+[Project Home and Live Demo](http://ritual.uh.edu/folksonomication-2018)
 
 ## Contributors
 - [Sudipta Kar](http://sudiptakar.info)
@@ -63,6 +63,7 @@ Optional
 
 ## Usage
 1. Download the [MPST Corpus](http://ritual.uh.edu/mpst-2018).
+*  Downloaded from [here](https://bit.ly/2WQUjXZ)
 2. Unzip the data and put the <b>MPST</b> directory inside the <b>data</b> directory.
 3. Download the Fasttext pre-trained embeddings and edit the path in the code in the notebook.
 4. Use the data processor notebook located at <b>source/notebooks/Prepare Data.ipynb</b> to prepare the data for the model.
