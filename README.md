@@ -66,7 +66,7 @@ Optional
 *  Downloaded from [here](https://bit.ly/2WQUjXZ)
 2. Unzip the data and put the <b>MPST</b> directory inside the <b>data</b> directory.
 3. Download the Fasttext pre-trained embeddings and edit the path in the code in the notebook.
-*  Downloaded for [here](https://fasttext.cc/docs/en/pretrained-vectors.html)
+*  Downloaded from [here](https://fasttext.cc/docs/en/english-vectors.html)
 *  Eventual downloaded from [here](https://fasttext.cc/docs/en/pretrained-vectors.html) (choose English:bin+text)
 4. Use the data processor notebook located at <b>source/notebooks/Prepare Data.ipynb</b> to prepare the data for the model.
     The processed data would be dumped inside <b>processed_data</b> directory.
