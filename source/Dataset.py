@@ -2,9 +2,9 @@ import json
 import torch
 from torch.utils import data
 
-padded_sequence_list = json.load( open('../processed_data/vectors/padded_word_sequences_1500.json', 'r'))
-emotion_vectors_list = json.load( open('../processed_data/vectors/emotion_score_dict_20_chunks.json', 'r'))
-binary_labels = json.load( open('../processed_data/vectors/labels_binary_dict.json', 'r') )
+padded_sequence_list = json.load( open('../processed_data/new/vectors/padded_word_sequences_1500.json', 'r'))
+emotion_vectors_list = json.load( open('../processed_data/new/vectors/emotion_score_dict_20_chunks.json', 'r'))
+binary_labels = json.load( open('../processed_data/new/vectors/labels_binary_dict.json', 'r') )
 
 
 class Dataset(data.Dataset):
