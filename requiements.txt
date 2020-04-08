@@ -1,4 +1,7 @@
 ###### Requirements without Version Specifiers ######
+
+###### Run below code to install module
+###### $ pip install -r requirements.txt
 gensim
 torch
 torchvision
