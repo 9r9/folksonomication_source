@@ -46,7 +46,7 @@ logger = Logger(output_dir_path + 'logs')
 # ----------------------------------------------------------------------------
 # Load Data using the data generator
 root_data_path = '../data/MPST/'
-processed_data_path = '../processed_data/'
+processed_data_path = '../processed_data/new/'
 imdb_id_list = open(root_data_path + '/final_plots_wiki_imdb_combined/imdb_id_list.txt').read().split('\n')
 
 # Loads a dictionary like {1:murder, 2: violence ....}
@@ -54,7 +54,7 @@ index_to_tag_dict = json.load(open(processed_data_path + 'index_to_tag.json', 'r
 class_weights = torch.FloatTensor(json.load(open(processed_data_path + '/class_weights_sk.json', 'r')))
 
 # Load Partition Information
-partition_dict = json.load(open(root_data_path + 'partition.json', 'r'))
+partition_dict = json.load(open(processed_data_path + 'partition.json', 'r'))
 train_id_list, val_id_list, test_id_list = partition_dict['train'], partition_dict['validation'], \
                                                           partition_dict['test']
 
